@@ -17,9 +17,9 @@ def main():
 
     option = input("Choose and enter the number of your choice:")
 
-    if option == "1":
-      print ("You are going to school")
-    elif option == "2":
-      print("Nice! you are going to playing video games")
-    elif option == "3":
-      print("Your hungry lets make breakfast")
+if option == "1":
+   print ("You are going to school")
+elif option == "2":
+    print("Nice! you are going to playing video games")
+elif option == "3":
+    print("Your hungry lets make breakfast")
