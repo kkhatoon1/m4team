@@ -23,3 +23,9 @@ elif option == "2":
     print("Nice! you are going to playing video games")
 elif option == "3":
     print("Your hungry lets make breakfast")
+elif option == "4":
+    print("Lets go to the gym")
+elif option == "5":
+    print("Lets go take care of your sibling")
+    break
+else:
