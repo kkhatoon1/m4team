@@ -4,7 +4,7 @@ options = (
   "3. Make Breakfast",
   "4. Go to the gym",
   "5. Take care of sibling",
-  "6. Exit")
+  "0. Exit")
 
 def output_options():
   print ("What option will you be choosing:")
@@ -15,22 +15,23 @@ def main():
   while True:
     output_options()
 
-    option = input("Choose and enter the number of your choice:")
+    answer = input("Choose and enter the number of your choice:")
 
-if option == "1":
-   print ("You are going to school")
-elif option == "2":
-    print("Nice! you are going to playing video games")
-elif option == "3":
-    print("Your hungry lets make breakfast")
-elif option == "4":
-    print("Lets go to the gym")
-elif option == "5":
-    print("Lets go take care of your sibling")
-elif answer == "6"
-     print("you are leaving bye!)
-     break
-else:
-    print("Invalid input try again please")
+    if answer == "1":
+     print ("You are going to school")
+    elif answer == "2":
+      print("Nice! you are going to playing video games")
+    elif answer == "3":
+      print("Your hungry lets make breakfast")
+    elif answer == "4":
+      print("Lets go to the gym")
+    elif answer == "5":
+      print("Lets go take care of your sibling")
+    elif answer == "0"
+       print("you are leaving bye!)
+       break
+    else:
+      print("Invalid input try again please")
+
 if _name_ == "_main_"
    main()
