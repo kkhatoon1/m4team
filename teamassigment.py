@@ -27,4 +27,10 @@ elif option == "4":
     print("Lets go to the gym")
 elif option == "5":
     print("Lets go take care of your sibling")
-  
+elif answer == "6"
+     print("you are leaving bye!)
+     break
+else:
+    print("Invalid input try again please")
+if _name_ == "_main_"
+   main()
